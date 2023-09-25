@@ -1,0 +1,33 @@
+/* Header.css */
+.header {
+    background: linear-gradient(to right, #aad4e5 , #d6a679, #b49138, #704214);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .store-name {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: text-shadow 0.3s;
+  }
+  
+  .store-name:hover {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cart {
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    background-color: #fff;
+    color: #d6a679;
+    padding: 10px 16px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  

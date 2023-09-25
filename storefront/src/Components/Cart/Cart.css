@@ -1,0 +1,59 @@
+/* Cart.css */
+
+/* Container style */
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product container style */
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .product-container:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+    transform: translateX(5px); /* Slight shift on hover */
+  }
+  
+  /* Product name style */
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Delete button style */
+  .delete-button {
+    background-color: #ad3629; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b; 
+    transform: scale(1.1); 
+  }
+  

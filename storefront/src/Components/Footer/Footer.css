@@ -1,0 +1,39 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(to right, #aad4e5 30%, #d6a679, #b49138, #704214);
+    color: #fff;
+    padding: 16px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #fff;
+  }
+  
+  .footer h6 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: text-shadow 0.3s;
+  }
+  
+  .footer h6:hover {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #3498db; /* Change link color on hover */
+  }
